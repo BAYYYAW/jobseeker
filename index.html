@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Jobseeker</title>
+</head>
+<body>
+
+  <form method="POST" name="google-sheet" autocomplete="off">
+    <div class="content">
+      <div class="logo" id="logo"></div>
+      <label>Nama</label>
+      <input type="text" value="Uyab The JobSeeker" name="Name">
+      <label>Apply ke</label>
+      <input type="text" name="Apply">
+      <label>Sebagai</label>
+      <input type="text" name="Sebagai">
+      <label>Daerah</label>
+      <input type="text" name="Daerah" class="active">
+      <input type="submit" value="submit">
+      <div class="snackbar" id="snackbar">
+        <p>Sudah di input</p>
+      </div>
+    </div>
+  </form>
+  <div class="bg"></div>
+</body>
+  <script src="main.js"></script>
+</html>

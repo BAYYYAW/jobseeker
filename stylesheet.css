@@ -5,8 +5,8 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-@media screen width(max-width: 400px;) {
-  html,body,.container{overflow: hidden;}
+@media only screen and (max-width: 1000px) {
+  .bg{display: none;}
 }
 
 .container{
@@ -15,18 +15,6 @@
   overflow: hidden;
 }
 
-.content1{
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  animation: c1 5s ease-in-out infinite;
-}
-.content2{
-  position: absolute;
-  top: 20%;
-  right: 10%;
-  animation: c2 5s ease-in-out infinite;
-}
 
 
 
